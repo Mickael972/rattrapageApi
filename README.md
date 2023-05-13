@@ -1,4 +1,4 @@
-# README : Analyse de l'APIgit
+# README : Analyse de l'API
 
 ## Analyse des Opérations de l'API
 
