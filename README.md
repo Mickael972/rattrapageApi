@@ -1,7 +1,4 @@
-# README : Analyse de l'API
-
-## Description
-Ce document présente une analyse de l'API de newsletter. Le but est de déterminer si cette API respecte les principes REST.
+# README : Analyse de l'APIgit
 
 ## Analyse des Opérations de l'API
 
