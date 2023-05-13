@@ -7,7 +7,7 @@
 L'opération GET pour la collection d'emails  **respecte** les principes REST mais pourrait être améliorée :
 
 - L'URI `/api/emails` identifie de manière unique tous les emails. La méthode GET est utilisée pour récupérer les données, ce qui respecte le principe d'interface uniforme.
-- La requête GET est sans état (stateless).
+
 - Le client et le serveur sont séparés et communiquent via des requêtes HTTP, ce qui respecte le principe client-serveur.
 
 **Suggestion** : Le serveur pourrait ajouter des informations, par exemple des liens vers d'autres pages comme vu dans le cours.
@@ -45,4 +45,4 @@ L'opération DELETE pour un item email  **respecte** les principes REST mais pou
 
 - Une requête DELETE renvoie généralement un code 204 (No Content) car il n'y a aucune donnée.
 
-**Suggestion** : L'URI devrait être `/api/email/{id}` et plus précisément `/api/emails/{id}` pour être cohérent avec le
+**Suggestion** : L'URI devrait être `/api/email/{id}` et plus précisément `/api/emails/{id}` pour être cohérent avec le l'API.
