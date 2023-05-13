@@ -10,7 +10,7 @@ L'opération GET pour la collection d'emails  **respecte** les principes REST ma
 - La requête GET est sans état (stateless).
 - Le client et le serveur sont séparés et communiquent via des requêtes HTTP, ce qui respecte le principe client-serveur.
 
-**Suggestion** : Le serveur pourrait ajouter des informations, par exemple des liens vers d'autres pages.
+**Suggestion** : Le serveur pourrait ajouter des informations, par exemple des liens vers d'autres pages comme vu dans le cours.
 
 ### POST Collection des Emails
 
