@@ -45,4 +45,4 @@ L'opération DELETE pour un item email  **respecte** les principes REST mais pou
 
 - Une requête DELETE renvoie généralement un code 204 (No Content) car il n'y a aucune donnée.
 
-**Suggestion** : L'URI devrait être `/api/email/{id}` et plus précisément `/api/emails/{id}` pour être cohérent avec le l'API.
+**Suggestion** : L'URI devrait être `/api/email/{id}` et plus précisément `/api/emails/{id}` pour être cohérent avec le reste de l'API.
